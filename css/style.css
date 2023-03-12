@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,#score,#highscore,#instruct
+{
+    text-align: center;
+    color: #bed8ec;
+
+}
+#score,#score,#highscore{
+    font-size: 30px;
+    margin: 9px 15px;
+}
+.container{
+    background: url('https://c4.wallpaperflare.com/wallpaper/421/1011/653/leather-logo-gaming-series-green-wallpaper-thumb.jpg');
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#board{
+    height: 70vmin;
+    width: 70vmin;
+    background: linear-gradient(#f7f0b1,#bed8ec);
+    border: 1px solid rgb(234, 201, 201);
+    border-radius: 9px;
+    display: grid;
+    grid-template-rows: repeat(16,1fr);
+    grid-template-columns: repeat(16,1fr);
+
+}
+
+
+.food
+{
+    background: linear-gradient(rgb(255, 255, 3),rgb(56, 184, 1));;
+    border-radius: 9px;
+}
+
+.head
+{
+    background : linear-gradient(rgb(255, 4, 0),rgb(255, 255, 3));
+    border-radius: 9px;
+    margin: 1px;
+
+}
+
+.snake{
+    background-color: purple;
+    border-radius: 9px;
+    margin: 1px;
+}
+
